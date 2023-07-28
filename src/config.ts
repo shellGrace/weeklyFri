@@ -2,7 +2,7 @@ export const SITE = {
   title: 'cheerful Friday 周刊',
   author: 'shellgrace',
   description: '为我枯燥的生活添加不枯燥的乐趣，每周五发布，欢迎关注',
-  keywords: 'Tw93,Weekly,Blog,前端,macOS,MiaoYan,Pack,Swift',
+  keywords: 'shellgrace-ssh-rsa-671',
   icon: 'https://gw.alipayobjects.com/zos/k/qv/coffee-2-icon.png',
   pic: 'https://cdn.fliggy.com/upic/2XFNGI.png',
   homePage: 'https://weeklyFri.shellgrace.fun',
