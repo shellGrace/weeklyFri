@@ -7,7 +7,7 @@ export const SITE = {
   pic: 'https://cdn.fliggy.com/upic/2XFNGI.png',
   homePage: 'https://weeklyFri.shellgrace.fun',
   blogPage: 'https://github.com/shellGrace/shellGrace.github.io',
-  twitterId: 'shellGrace',
+  twitterId: 'shellGrace_671',
   githubId: 'shellgrace',
   repo: 'shellgrace/weeklyFri'
 };
