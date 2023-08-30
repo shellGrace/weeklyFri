@@ -1,0 +1,61 @@
+---
+date: 2023/09/01
+---
+
+<img src="https://i.imgs.ovh/i/2023/08/30/64eebb94eeef7.png" width="800" />
+
+<small>封面图来源于2020年RTE互联网大会，作为主办方开发者带着自己的作品参展还是很有成就感的。</small>
+
+**自己写的demo**
+<img src="https://i.imgs.ovh/i/2023/08/30/64eebb8ab04d1.png" width="800" />
+
+### 技术分享
+
+# 闭包
+*是一个函数以及其捆绑的周边环境状态（lexical environment，词法环境）的引用的组合。换而言之，闭包让开发者可以从内部函数访问外部函数的作用域。在 JavaScript 中，闭包会随着函数的创建而被同时创建。*
+
+词法作用域根据源代码中声明变量的位置来确定该变量在何处可用。嵌套函数可访问声明于它们外部作用域的变量
+
+```javascript
+function makeFunc() {
+  var name = "Mozilla";
+  function displayName() {
+    alert(name);
+  }
+  return displayName;
+}
+
+var myFunc = makeFunc();
+myFunc();
+```
+
+## 闭包的应用
+
+### 节流
+```javascript
+function throttle(fun, delay) {
+  let last = 0;
+  return function(...args) {
+    const now = +new Date();
+    if (last - now >= delay) {
+      fun.apply(this, args);
+      last = now;
+    }
+  }
+}
+```
+
+### 防抖
+```javascript
+debounce(fun, delay) {
+  let timer = null;
+  return function() {
+    if (timer) {
+      clearTimeout(timer)
+    }
+    timer = setTimeout(() => {
+      fun.apply(this, arguments)
+    }, delay)
+  }
+}
+```
