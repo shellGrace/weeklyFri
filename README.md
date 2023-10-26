@@ -7,4 +7,4 @@
 * [第 4 期 - 互联网大会](https://weeklyfri.fun/posts/4-%E4%BA%92%E8%81%94%E7%BD%91%E5%A4%A7%E4%BC%9A)
 * [第 5 期 - 夜游西湖](https://weeklyfri.fun/posts/5-%E5%A4%9C%E6%B8%B8%E8%A5%BF%E6%B9%96)
 * [第 6 期 - 小桥流水](https://weeklyfri.fun/posts/6-%E5%B0%8F%E6%A1%A5%E6%B5%81%E6%B0%B4)
-* [第 7 期 - 阳澄湖吃蟹](https://weeklyfri.fun/posts/5-%E9%98%B3%E6%BE%84%E6%B9%96%E5%90%83%E8%9F%B9)
+* [第 7 期 - 阳澄湖吃蟹](https://weeklyfri.fun/posts/7-%E9%98%B3%E6%BE%84%E6%B9%96%E5%90%83%E8%9F%B9)
